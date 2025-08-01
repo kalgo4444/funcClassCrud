@@ -1,0 +1,15 @@
+.notFound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &__title {
+    font-size: var(--notFound-title);
+  }
+  &__desc {
+    margin: 1rem 0;
+    font-size: var(--notFound-desc);
+  }
+}

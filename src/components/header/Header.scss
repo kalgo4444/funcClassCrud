@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--bg-header);
+  height: 80px;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__logo {
+    font-size: var(--logo-size);
+    font-weight: var(--logo-weight);
+  }
+  &__collection {
+    display: flex;
+    align-items: center;
+    gap: var(--link-gap);
+    font-size: var(--link-size);
+    font-weight: var(--link-weight);
+  }
+  &__link {
+    .active {
+      text-decoration: underline;
+    }
+  }
+  &__btn {
+    background: #ddd;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border-radius: var(--rounded);
+  }
+}
